@@ -139,6 +139,7 @@ nav a.active {
   font-family: "Orbitron", sans-serif;
   font-size: 4.4rem;
   font-weight: 1000;
+  text-transform: uppercase;
   margin-bottom: 1rem;
   color: var(--primary-color);
   animation: fadeInUp 1s ease;
@@ -221,6 +222,7 @@ section.visible {
   font-family: "Orbitron", sans-serif;
   font-size: 2.5rem;
   text-align: center;
+  text-transform: uppercase;
   margin-bottom: 3rem;
   color: var(--primary-color);
 }
@@ -268,7 +270,7 @@ section.visible {
   font-size: 3rem;
   font-weight: 800;
   letter-spacing: 0.08em;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   margin-top: -30px;
   margin-bottom: 32px;
   text-align: left;
@@ -344,7 +346,8 @@ section.visible {
 
 .core-competencies h3 {
   font-family: "Orbitron", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  text-transform: uppercase;
   color: var(--primary-color);
   margin-bottom: 1.5rem;
   text-align: center;
@@ -828,6 +831,8 @@ footer {
 
   .section-title {
     font-size: 2rem;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
   }
 }
 /* =========================

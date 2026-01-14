@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonlee James R. Navio - AI Automation Specialist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <div class="logo">JJN</div>
+        <div class="mobile-menu" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="navMenu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h2>Hello, I'm</h2>
+          <h1>Jonlee James Navio</h1>
+          <h2>an AI Automation Specialist & Workflow Engineer</h2>
+          <p>
+            Building intelligent automations that save time, optimize workflows,
+            and scale operations.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="assets/resume/NAVIO_RESUME.pdf" download class="btn"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <div class="about-paragraphs">
+            <p>
+              I’m an AI Automation Specialist who designs and operates
+              intelligent workflows that reduce manual effort, eliminate errors,
+              and scale operations. I work at the intersection of automation
+              platforms, backend scripting, and LLM-based systems to turn
+              repetitive processes into reliable, production-ready solutions.
+            </p>
+
+            <p>
+              My focus is on end-to-end automation: integrating APIs,
+              orchestrating AI workflows, handling failures gracefully, and
+              ensuring systems remain observable, secure, and easy to operate—so
+              teams can move faster with confidence.
+            </p>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="assets/images/brtt.jpg" alt="Profile Photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+
+        <div class="skills-grid">
+          <!-- COLUMN 1 -->
+          <div class="skill-category">
+            <h3>Automation Platforms</h3>
+            <div class="skill-tags">
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="6+ production systems"
+                data-detail="End-to-end workflow orchestration & error handling"
+              >
+                <img src="assets/images/make-color.webp" alt="Make" />
+                Make
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Self-hosted environments"
+                data-detail="Docker-based deployment & custom nodes"
+              >
+                <img src="assets/images/n8n-color.webp" alt="n8n" />
+                n8n (Self-Hosted)
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐"
+                data-projects="Rapid automations"
+                data-detail="Multi-app triggers & actions"
+              >
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/zapier.svg"
+                  alt="Zapier"
+                />
+                Zapier
+              </span>
+            </div>
+          </div>
+
+          <!-- COLUMN 2 -->
+          <div class="skill-category">
+            <h3>AI Systems & LLM Engineering</h3>
+            <div class="skill-tags">
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Daily production use"
+                data-detail="Prompt engineering, JSON schemas & tool calling"
+              >
+                <img
+                  src="https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.59f2e898.png"
+                  alt="ChatGPT"
+                />
+                ChatGPT
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Client AI workflows"
+                data-detail="Multi-step reasoning & fallback logic"
+              >
+                <img src="assets/images/claude-color.webp" alt="Claude" />
+                Claude
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐"
+                data-projects="AI integrations"
+                data-detail="Model routing & multimodal processing"
+              >
+                <img
+                  src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg"
+                  alt="Gemini"
+                />
+                Gemini
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="All AI workflows"
+                data-detail="Structured prompts, system messages & output validation"
+              >
+                <img src="assets/images/json.png" alt="Structured Outputs" />
+                Structured Outputs
+              </span>
+            </div>
+          </div>
+
+          <!-- COLUMN 3 -->
+          <div class="skill-category">
+            <h3>Workflow Ops & Documentation</h3>
+            <div class="skill-tags">
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Internal & client systems"
+                data-detail="Process documentation & SOPs"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png"
+                  alt="Notion"
+                />
+                Notion
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Production workflows"
+                data-detail="Operational tracking & automation visibility"
+              >
+                <img
+                  src="assets/images/Monday.com-Logo.wine.svg"
+                  alt="Monday"
+                />
+                Monday
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Daily operations"
+                data-detail="Docs, Sheets, Calendar & API integration"
+              >
+                <img src="assets/images/google.png" alt="Google Workspace" />
+                Google Workspace
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="All systems"
+                data-detail="Alerts, logging & failure notifications"
+              >
+                <img src="assets/images/monitoring.png" alt="Monitoring" />
+                Monitoring & Alerts
+              </span>
+            </div>
+          </div>
+
+          <!-- COLUMN 4 -->
+          <div class="skill-category">
+            <h3>Programming & Backend</h3>
+            <div class="skill-tags">
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Automation services"
+                data-detail="FastAPI scripts, data processing & integrations"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python"
+                />
+                Python
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Workflow logic"
+                data-detail="Node.js scripts & API handling"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                />
+                JavaScript
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Persistent data"
+                data-detail="PostgreSQL queries & reporting pipelines"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                  alt="SQL"
+                />
+                SQL (PostgreSQL)
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐"
+                data-projects="Codebases"
+                data-detail="Version control & CI workflows"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="Git"
+                />
+                Git
+              </span>
+            </div>
+          </div>
+
+          <!-- COLUMN 5 -->
+          <div class="skill-category">
+            <h3>Cloud & Technical Integration</h3>
+            <div class="skill-tags">
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="All projects"
+                data-detail="Event-driven API communication"
+              >
+                <img src="assets/images/webhook.svg" alt="Webhooks" />
+                Webhooks
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Secure integrations"
+                data-detail="OAuth 2.0 flows & token management"
+              >
+                <img
+                  src="assets/images/oauth-open-standard-multi-factor-authentication-user-work-permit.jpg"
+                  alt="OAuth"
+                />
+                OAuth 2.0
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Self-hosted stacks"
+                data-detail="Containerized deployments"
+              >
+                <img src="assets/images/docker.png" alt="Docker" />
+                Docker
+              </span>
+
+              <span
+                class="skill-tag"
+                data-level="⭐⭐⭐"
+                data-projects="Cloud servers"
+                data-detail="Ubuntu, VPS & environment management"
+              >
+                <img src="assets/images/Ubuntu.png" alt="Linux" />
+                Linux (Ubuntu)
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Core Competencies -->
+        <div class="core-competencies">
+          <h3>Core Competencies</h3>
+          <div class="competencies-list">
+            <span>End-to-End Automation Design</span>
+            <span>API & System Integration</span>
+            <span>AI Workflow Engineering</span>
+            <span>Data Processing & Reporting</span>
+            <span>Error Handling, Monitoring & Recovery</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card" onclick="openModal(0)">
+            <img
+              src="assets/projects/liberty.png"
+              alt="Music Marketing Agency Client"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3>Meta Ad Campaign Data Processing & Reporting System</h3>
+              <p class="project-client">Music Marketing Agency Client</p>
+              <p>
+                Auto-pilot for Meta ad tracking - pulls data, calculates
+                metrics, updates reports daily.
+              </p>
+            </div>
+          </div>
+          <div class="project-card" onclick="openModal(4)">
+            <img
+              src="assets/projects/image.png"
+              alt="Personal Project"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3>
+                Expense Tracking System with Telegram, OpenAI & Google Sheets
+              </h3>
+              <p class="project-client">Personal Expense Tracker</p>
+              <p>
+                Automatically logs expenses from Telegram, parses with AI, saves
+                to Google Sheets, and sends confirmations back.
+              </p>
+            </div>
+          </div>
+          <div class="project-card" onclick="openModal(1)">
+            <img
+              src="assets/projects/ova.png"
+              alt="Personal Project"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3>Oas Volleyball Alliance Messenger Assistant</h3>
+              <p class="project-client">Personal Make.com Project</p>
+              <p>
+                Automated autoreply workflow that logs messages, sends
+                responses, and organizes conversation data.
+              </p>
+            </div>
+          </div>
+          <div class="project-card" onclick="openModal(2)">
+            <div class="project-image">📅</div>
+            <div class="project-content">
+              <h3>Voice & Text Calendar Management</h3>
+              <p class="project-client">GPT-4 + Telegram Integration</p>
+              <p>
+                Manage Google Calendar events using voice commands and text
+                through Telegram bot.
+              </p>
+            </div>
+          </div>
+          <div class="project-card" onclick="openModal(3)">
+            <div class="project-image">📧</div>
+            <div class="project-content">
+              <h3>Automated Email Filtering & AI Summarization</h3>
+              <p class="project-client">Productivity Enhancement</p>
+              <p>
+                Intelligent email filtering system with AI-powered summarization
+                for quick inbox management.
+              </p>
+            </div>
+          </div>
+          <div class="project-card" onclick="openModal(5)">
+            <img
+              src="assets/projects/Food.png"
+              alt="Personal Project"
+              class="project-image"
+            />
+            <div class="project-content">
+              <h3>AI-Powered Food Order Processing</h3>
+              <p class="project-client">Small Business Client</p>
+              <p>
+                An AI-powered Facebook Messenger ordering system that
+                understands customer messages, guides them through the ordering
+                process, and manages orders end-to-end automatically.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Aug 2025—Sept 2025</div>
+            <h3 class="timeline-title">
+              Liberty Music PR — AI Automation & Workflow Support
+            </h3>
+            <ul>
+              <li>
+                Built and optimized automation pipelines using Make.com and
+                Monday.com
+              </li>
+              <li>Improved team efficiency by 5—8 staff-hours weekly</li>
+              <li>Evaluated AI outputs for accuracy and clarity</li>
+              <li>Documented workflow steps and logic</li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Feb 2025—May 2025</div>
+            <h3 class="timeline-title">
+              Sutherland Global Services — IT Deskside Support Intern
+            </h3>
+            <ul>
+              <li>Troubleshooting, asset tracking, systems documentation</li>
+              <li>Maintained accurate IT database records</li>
+              <li>Identified recurring issues and suggested improvements</li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Feb 2025—Mar 2025</div>
+            <h3 class="timeline-title">
+              Ollopa Game Studio Department — Game Development Intern
+            </h3>
+            <ul>
+              <li>Organized digital assets</li>
+              <li>Reviewed gameplay logic and user flow</li>
+              <li>Assisted with project documentation and structuring</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Download Section -->
+    <section id="resume">
+      <div class="container" style="text-align: center">
+        <h2 class="section-title">Get My Resume</h2>
+        <a
+          href="assets/resume/navio_resume.pdf"
+          download
+          class="btn btn-primary"
+          style="font-size: 1.2rem; padding: 1.5rem 3rem"
+          >Download My Resume</a
+        >
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+          <div class="contact-form">
+            <form onsubmit="handleSubmit(event)">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" required />
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea rows="6" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="contact-item">
+              <h3>Email</h3>
+              <a href="mailto:naviojonleejames@gmail.com"
+                >naviojonleejames@gmail.com</a
+              >
+            </div>
+            <div class="contact-item">
+              <h3>Phone</h3>
+              <a href="tel:09917226275">+639917226275</a>
+            </div>
+            <div class="contact-item">
+              <h3>Location</h3>
+              <p>Oas, Albay, Philippines</p>
+            </div>
+            <div class="contact-item">
+              <h3>LinkedIn</h3>
+              <a
+                href="https://www.linkedin.com/in/jonlee-james-navio-31a5982b2/"
+                target="_blank"
+                >linkedin.com/in/jonlee-james-navio/</a
+              >
+            </div>
+            <div class="contact-item">
+              <h3>GitHub</h3>
+              <a href="https://github.com/jonleejamesnavio" target="_blank"
+                >github.com/jonleejamesnavio</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Jonlee James R. Navio. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="projectModal">
+      <div class="modal-content">
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+        <h2 id="modalTitle"></h2>
+        <p
+          id="modalClient"
+          style="color: var(--text-secondary); margin-bottom: 1rem"
+        ></p>
+
+        <!-- Slideshow Container -->
+        <div class="slideshow-container" id="modalSlideshow">
+          <div class="slideshow-inner" id="slideshowInner">
+            <!-- Images will be inserted here by JavaScript -->
+          </div>
+          <button
+            class="slide-btn prev"
+            id="prevSlide"
+            onclick="changeSlide(-1)"
+          >
+            ❮
+          </button>
+          <button
+            class="slide-btn next"
+            id="nextSlide"
+            onclick="changeSlide(1)"
+          >
+            ❯
+          </button>
+        </div>
+
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

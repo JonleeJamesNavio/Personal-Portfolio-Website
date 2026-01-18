@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository.
 This project showcases my experience designing, building, and operating **AI-powered automation systems**, end-to-end workflows, and production-ready integrations.
 
-🔗 **Live Portfolio:** *(Add your deployed site link here)*
+🔗 **Live Portfolio:** *https://jonleejamesnavio.github.io/Personal-Portfolio-Website/*
 📄 **Resume:** Available in the repository (`assets/resume/Navio Resume.pdf`)
 
 ---

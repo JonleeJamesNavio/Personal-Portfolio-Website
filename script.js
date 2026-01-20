@@ -53,11 +53,30 @@ const projects = [
     images: [],
   },
   {
-    title: "Automated Email Filtering & AI Summarization",
-    client: "Productivity Enhancement",
+    title: "Automated Volleyball Lead Nurture System with Stripe Payments",
     description:
-      "Intelligent email filtering system that categorizes, prioritizes, and summarizes emails for quick inbox management.",
-    images: [],
+      "Fully automated 24/7 conversion funnel in Messenger that qualifies volleyball leads by experience, nurtures them over 30 days, handles objections via keywords, and processes Stripe payments—zero human intervention required.",
+    TechStack: [
+      { name: "Manychat", icon: "assets/images/Manychat.png" },
+      { name: "Messenger", icon: "assets/images/messenger.svg" },
+      { name: "Stripe", icon: "assets/images/Stripe.jpeg" },
+      { name: "Meta API", icon: "assets/images/meta.webp" },
+      { name: "Claude AI", icon: "assets/images/claude-color.webp" },
+      {
+        name: "OpenAI",
+        icon: "https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.59f2e898.png",
+      },
+    ],
+    images: [
+      "assets/projects/Manychat.png",
+      "assets/projects/Manychat1.png",
+      "assets/projects/Manychat2.png",
+      "assets/projects/Manychat3.png",
+      "assets/projects/Manychat4.png",
+      "assets/projects/Manychat5.png",
+      "assets/projects/Manychat6.png",
+      "assets/projects/Manychat7.png",
+    ],
   },
   {
     title: "Expense Tracking System with Telegram, OpenAI & Google Sheets",
@@ -74,7 +93,7 @@ const projects = [
       },
     ],
     images: [
-      "assets/projects/image.png",
+      "assets/projects/Expnse.png",
       "assets/projects/ExpenseT.png",
       "assets/projects/ExpenseTr.png",
     ],
@@ -146,7 +165,7 @@ const observer = new IntersectionObserver(
       if (entry.isIntersecting) entry.target.classList.add("visible");
     });
   },
-  { threshold: 0.1 }
+  { threshold: 0.1 },
 );
 document
   .querySelectorAll("section")

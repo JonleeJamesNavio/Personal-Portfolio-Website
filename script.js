@@ -44,14 +44,24 @@ const projects = [
       "assets/projects/ova4.png",
     ],
   },
+
   {
-    title:
-      "Manage Calendar with Voice & Text using GPT-4, Telegram & Google Calendar",
-    client: "Personal Productivity Tool",
+    title: "AI Calendar Assistant with Memory (GPT-4o-mini + Telegram)",
     description:
-      "Accepts voice or text via Telegram to create, update, and delete Google Calendar events intelligently with GPT-4.",
-    images: [],
+      "Fully automated AI calendar assistant that understands natural language text commands, creates/updates/deletes Google Calendar events via Telegram, maintains conversation memory, and operates 24/7 with zero manual input.",
+    TechStack: [
+      { name: "n8n", icon: "assets/images/n8n-color.webp" },
+      { name: "Telegram", icon: "assets/images/telegram.svg" },
+      { name: "Google Calendar", icon: "assets/images/google-calendar.svg" },
+      {
+        name: "OpenAI",
+        icon: "https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.59f2e898.png",
+      },
+      { name: "Claude AI", icon: "assets/images/claude-color.webp" },
+    ],
+    images: ["assets/projects/Calendar Agent.png"],
   },
+
   {
     title: "Automated Volleyball Lead Nurture System with Stripe Payments",
     description:
